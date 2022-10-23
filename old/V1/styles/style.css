@@ -1,0 +1,176 @@
+
+/*
+body{
+    background-color: lightgrey;
+}
+*/
+#header{
+display: flex;    /*this makes entire container flexable*/
+align-items: center;  /*aligning the items in the centers, . */
+flex-direction: row;
+border: 0.5px black solid;
+padding: 2px;
+margin: 1%;
+}
+
+/* MOVE TO BOTTOM anda combined with hyperlinks
+@media screen and (max-width: 600px) {    /*media screen adjust for smaller devices to turn rows into columns
+
+    .header {
+        flex-direction:column;
+    }
+
+        }
+*/
+.header:hover{     /*hover test*/
+    background-color: aquamarine;
+
+}
+
+
+
+.header-div2{    /*first box in header but order is defined by order:*/
+
+border: 1px black solid;
+padding: 10px;
+margin: 2%;
+text-align: left;
+flex: 3;   /*grow factor of a flex items main size*/
+order: 1;  /*order of the item in the flex*/
+
+}
+.header-div2:hover{
+    background-color: white;
+}
+.header-div3{    /*Second box in header but order is defined by order: */
+border: 1px black solid;
+padding: 10px;
+margin: 2%;
+text-align: right;
+flex: 3;
+order: 2;
+}
+
+.header-div3:hover{    /*changing colr and font style with a hover*/
+    background-color: grey;
+    font-style: italic;
+}
+
+
+#hyperlinks{
+display: flex;
+flex-direction: row;
+justify-content: center;   /*using justified content as per lab requirements*/
+
+}
+/*  MOVED TO BOTTOM and combined with header
+@media screen and (max-width: 600px) { /*media screen adjust for smaller devices to turn rows into columns (REMEMBER CASCADING HERE as to why testing didn't work..
+
+    .hyperlinks {
+        flex-direction:column;
+    }
+
+        }
+
+*/
+.hyperlinks div{  /*affects all div in container hyperlinks*/
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    border: 1px black solid;
+    background-color: rgb(166, 255, 0);
+    padding: 10px;
+    box-shadow: 10px 10px blue;
+    margin: 0.5%;
+    /*flex: 3; took this out as justify-content wasn't working, as in flex 3 in more specific . = won*/
+    text-align: center;
+}
+
+.hyperlinks div:hover{
+
+    background-color: white;
+}
+
+.hyperlinks-div-profile{
+    order: 1;
+}
+
+.hyperlinks-div-skills{
+    order: 2;
+
+}
+
+.hyperlinks-div-education{
+    order: 3;
+
+}
+
+.hyperlinks-div-certs{
+    order: 4;
+
+
+}
+
+.hyperlinks-div-workExp{
+    order: 5;
+
+}
+.hyperlinks-div-interests{
+    order: 6;
+
+}
+
+
+
+li{
+    text-align: center;
+}
+h1{
+    text-shadow: 2px 2px;
+}
+h2{
+    text-shadow: 2px 2px;
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    text-shadow: 2px 2px;
+}
+/*body{
+    text-align: center;
+}*/
+
+
+ul.myUlProfile{
+    display: round;
+    text-align: center;
+}
+ 
+/*
+ul.myULSkills{
+    display: inline-block;
+    text-align: center;
+}
+*/
+#footer{
+    font-weight: bold;
+    text-align: center;
+    display: flex;    /*this makes entire container flexable*/
+    align-items: center;  /*aligning the items in the centers, . */
+    flex-direction: row;
+    border: 0.5px black solid;
+    padding: 2px;
+    margin: 1%;
+}
+
+
+/*
+@media screen and (max-width: 600px) { /*media screen adjust for smaller devices to turn rows into columns (REMEMBER CASCADING HERE as to why testing didn't work..
+
+    .hyperlinks, .header {
+        flex-direction:column;
+    }
+
+        }
+
+*/
+
