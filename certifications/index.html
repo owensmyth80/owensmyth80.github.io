@@ -2,64 +2,105 @@
 <html>
     <head>
         <title>My CV on a brutal website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../styles/style.css">
     </head>
+
     <body>
-        <div id="header">
-            <div id="header-div1">
-                <img src="../images/profile.png" alt="Owen Smyth Profile Picture">
+        <div class="container">
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CV Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Certifications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../skills/index.html">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../expskiled/index.html">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../interests/index.html">Interests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../eduction/index.html">Education</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-            <div id="header-div2">
-                <h1>Owen Smyth</h1>
+          </nav>
+              <!-- Header -->
+              <hr>
+            <div class="row">
+                <div class="col-xs-12 col-lg-5 text-start">
+                    <img src="../images/profile.png" class="rounded float-start" alt="Owen Smyth Profile picture">
+                    <h2>CV Owen Smyth</h2>
+                </div>
+                <div class="col-xs-12 col-lg-7 text-end">
+                    <p>Islandbridge, Dublin 8</p>
+                    <p>086 839 3396</p>
+                    <a href="mailto:owensmyth80@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
+                    <a href="https://twitter.com/Eoin32096539" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                    <a href="https://www.linkedin.com/in/owen-smyth/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                </div>
+                
+
             </div>
-        
-            <div id="header-div3">
-            <p>Islandbridge, Dublin 8</p>
-            <p>086 839 3396</p>
-            <p><a href="mailto:owensmyth80@gmail.com">owensmyth80@gmail.com</a></p>
-            <a href="https://www.linkedin.com/in/owen-smyth/">http://www.linkedin.com/in/owen-smyth</a>
+            <hr>
+            <!-- 2nd Row -->
+            <div class="row">
+                WIP
+            </div>
+            <!-- 3rd Row -->
+            <div class="row">
+              <div class="col-xs-12 col-lg-6 text-start my-auto">
+                <div>
+                  <ul class="myUlProfile">
+
+                      <li>WIP</li> 
+                  </div>
+              </div>
+
+         <p></p> 
+  <hr>
+          <div class="row">
+            <div class="col-xs-12 col-lg-5 text-start">
+              WIP
+            </div>
+            <div class="col-xs-12 col-lg-7 text-end">
+                <p>086 839 3396</p>
+                <a href="mailto:owensmyth80@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
+                <a href="https://twitter.com/Eoin32096539" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                <a href="https://www.linkedin.com/in/owen-smyth/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+            </div>
             
-            </div>
-        </div>
-
-    <div class="hyperlinks">
-        <div class="hyperlinks-div-profile">
-            <a href="../index.html">Profile</a>
-        </div>     
-        <div class="hyperlinks-div-skills">
-            <a href="../skills/index.html">Skills</a>
-        </div>
-        <div class="hyperlinks-div-education">
-            <a href="../eduction/index.html">Education</a>          
-        </div>
-        <div class="hyperlinks-div-certs">
-            <a href="index.html">Certifications</a>
-        </div>
-        <div class="hyperlinks-div-workExp">
-            <a href="../workexperience/index.html">Work Experience</a>
-        </div>
-        <div class="hyperlinks-div-interests">
-            <a href="../interests/index.html">Interests</a> 
-        </div>
- 
-
+    
+      </div>
+       
+              
+          
     </div>
-    <div id="Certifications"><h2>Certifications</h2>
-    <div>
-        <ul class="myUlProfile">
-            <li>Committed, versatile and highly motivated Systems Architect, with extensive experience of providing managed infrastructure services to clients, recently technically lead a financial services clients Transition & Transformation migration to new data centre utilizing VMWare as the platform for all Windows & Linux application servers, Oracle KVM hosting Oracle 12 c Databases, and all supporting services backup, Exchange, proxy, anti-virus, MS AD services, Citrix etc successfully migrated.</li>
-            <li>Self-driven and motivated, customer focused, and a proven ability to self-learn new technologies quickly.</li>
-            <li>Currently upskilling in Cloud, recently Certified as an Azure Administrator Associate & Azure Security Engineer Associate.</li>
-            <li>Undertaking a Higher Diploma in Science in Computing at the National College of Ireland to gain additional software development skills, to support a transition to a Cloud Architect role.</li> 
-        </div>
-    </div>
-
-
-  
-        <div id="footer">
-            <p><span style="text-decoration:underline;font-weight: bold;">This is the footer</span></p>
-
-        </div>
+</div> 
+   
 
     </body>
+
 </html>
