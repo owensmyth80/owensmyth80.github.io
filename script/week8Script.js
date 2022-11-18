@@ -1,3 +1,5 @@
+//logic here is that rock is 0, paper is 1, siscors is 2
+
 function rock(){
     var computerInput=Math.floor(Math.random() * 3);
 

@@ -19,7 +19,7 @@ function grades(){
           else if(myGrades >= 40 && myGrades < 60){
             alert("that is an D")
           }
-          else if(myGrades < 40 && myGrades < 50){
+          else if(myGrades >= 0 && myGrades < 40){
             alert("that is an Fail")
           }
           else{
