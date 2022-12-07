@@ -48,7 +48,7 @@
                 <hr>
                 <!--HEADER-->
               <div class="row">
-                <div class="col-lg-6 col-xs-12 text-start">
+                <div class="col-6 text-start">
                   <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
                 <div class="col-6 text-end">
@@ -96,6 +96,8 @@
 </div>
 				<!-- Columns are always 50% wide, on mobile and desktop -->
                 <!--ROW1-->
+				
+				<!-- Menu items were hard to read, so used cards to make them stand out -->
 <div class="row">
   <div class="col-lg-6 col-xs-12">
     <div class="card border-dark">
