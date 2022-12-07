@@ -48,7 +48,8 @@
                 <hr>
                 <!--HEADER-->
               <div class="row">
-                <div class="col-6 text-start">
+                <div class="col-lg-6 col-xs-12 text-start">
+                  <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
                 <div class="col-6 text-end">
                     <p>01 1223 456</p>
@@ -142,25 +143,15 @@
                 </div>
                 <!-- Columns are always 50% wide, on mobile and desktop -->
                 <!--ROW3-->
-                <div class="row">
-                  <div class="col-lg-6 col-xs-12">
-                    more blah blah blah col1
-                  </div>
-
-                  <div class="col-lg-6 col-xs-12">
-                    more blah blah blah col2
-                  </div>
-
-                </div>
                 <hr>
                 <!--FOOTER-->         
           
     
           <div class="row">
-            <div class="col-6 text-start">
+            <div class="col-lg-6 col-xs-12 text-start">
               <h5>Bean-CO</h5>
             </div>
-            <div class="col-6 text-end">
+            <div class="col-lg-6 col-xs-12 text-end">
                 <p>01 1223 456</p>
                 <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
                 <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
