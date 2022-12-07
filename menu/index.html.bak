@@ -76,14 +76,15 @@
         </div>
     </div>
     <div class="carousel-item">
-      <img src="..\images\fac.jpg" class="d-block auto" alt="Fish & Chips">
-	  <!-- <img src="..\images\fac.jpg" class="d-block w-100" alt="Fish & Chips"> -->
+      <!-- <img src="..\images\fac.jpg" class="d-block w-100" alt="Fish & Chips"> -->
+	  <img src="..\images\fac.jpg"  alt="Fish & Chips">
 	  	<div class="carousel-caption d-none d-md-block">
           <!-- <h1>Fish & Chips</h1> -->
         </div>
     </div>
 	    <div class="carousel-item">
-      <img src="..\images\coffee.jpg" class="d-block w-100" alt="Coffee">
+      <!-- <img src="..\images\coffee.jpg" class="d-block w-100" alt="Coffee"> -->
+	  <img src="..\images\coffee.jpg" class="d-block" alt="Coffee">
 	  	<div class="carousel-caption d-none d-md-block">
           <!-- <h1>Coffee</h1> -->
         </div>
