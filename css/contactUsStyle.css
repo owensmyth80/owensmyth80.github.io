@@ -20,7 +20,11 @@ h2{
 	height: 200px;
 
 }
-
+@media screen and (max-width: 600px) {
+	#contactUsCarousel{
+		display: none;
+	}
+}
 #myForm{
 	text-align: left;
 }
@@ -38,3 +42,5 @@ h2{
 	transition-duration: 2s;
 	transition: all;
 }
+
+
