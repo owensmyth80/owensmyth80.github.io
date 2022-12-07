@@ -301,8 +301,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">BLT €6</h5>
         <p class="card-text">Crispy Irish Bacon, Butterhead Lettuce, Buffallo Tomato, Homemade Mayonnaise in a Toasted Bap.</p>
@@ -310,8 +309,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">THE FARMHOUSE €5</h5>
         <p class="card-text">Irish Oven Baked Ham, Creamy Egg Mayonnaise, Vine Tomatoes, Spring Onion, Pickles on Brown Wholemeal.</p>
@@ -324,13 +322,10 @@
 <!-- <br> -->
     <hr class="style-two">
         <h2 class="text-center">Hot Food</h2>
-			           <!-- <hr class="style-two"> -->
-            <!-- <hr class="accent my-2"> -->
 </div>
  <div class="row">
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">QUESADILLA €10</h5>
         <p class="card-text">A Large Flour Tortilla Stuffed with Cheese, Peppers, and Seasoned Shredded Chicken and Served with Potato Wedges.</p>
@@ -338,8 +333,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">CHICKEN CURRY €10</h5>
         <p class="card-text">Roasted Chicken Strips and Homemade Garlic Aioli with Tomato and Lettuce in a Floury Seeded Bap.</p>
@@ -347,8 +341,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">LASANGA €10</h5>
         <p class="card-text">Beef Lasanga in a Tomato and Basil Sauce Topped with Mozzerella and Served with Garlic Bread and a Fresh Garden Salad.</p>
@@ -356,8 +349,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">BEEF STROGANOFF €10</h5>
         <p class="card-text">Slow Cooked Irish Beef Strips in a Rich and Creamy White Wine Sauce Topped with Parsley and Roast Mushrooms. Served with Potato or Rice.</p>
@@ -365,8 +357,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">FISH & CHIPS €12</h5>
         <p class="card-text">Beer Battered Freshly Caught Fish with Chunky Chips and Mushy Peas Puree and Tartar Saunce.</p>
@@ -374,8 +365,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">VEGTABLE CURRY €10</h5>
         <p class="card-text">Potato, Chickpea and Pea Curry in a Creamy Curry Sauce with Basmati Rice and Poppadoms</p>
