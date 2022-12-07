@@ -50,10 +50,10 @@
                 <hr>
                 <!--HEADER-->
               <div class="row">
-                <div class="col-xs-12 col-lg-6 text-start">
+                <div class="col-6 text-start">
                   <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
-                <div class="col-xs-12 col-lg-6 text-end">
+                <div class="col-6 text-end">
                     <p>01 1223 456</p>
                     <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
                     <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
@@ -68,7 +68,7 @@
                  </div>
                 <!--ROW2-->
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-xs-12 col-lg-6">
           <!-- Carousel -->
           <div id="contactUsCarousel" class="carousel slide" data-bs-ride="carousel">
 
@@ -97,16 +97,16 @@
                        
     </div>
 
-                  <div class="col-6">
-                    <form id="myForm" onsubmit="myJsFuntion();return false">
+                  <div class="col-xs-12 col-lg-6">
+                    <form id="myForm" onsubmit="myJsAboutUsFuntion();return false">
                         Name:<br/>
-                        <input type="text" id="text" /><br/>
+                        <input type="text" placeholder="Your Name.." id="nameField" /><br/>
                     
                         Email:<br/>
-                        <input type="email" id="email" /><br/>
+                        <input type="email" placeholder="Email Address.." id="emailField" /><br/>
                     
                         Message:<br/>
-                        <textarea name="message" id="message" >Enter your commments here</textarea> <br/>
+                        <textarea name="message" placeholder="Enter your comments here..." id="message" ></textarea> <br/>
 
                         <input type="submit" /><br/>
             
