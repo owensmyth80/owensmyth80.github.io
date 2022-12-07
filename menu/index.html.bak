@@ -48,8 +48,8 @@
                 <hr>
                 <!--HEADER-->
               <div class="row">
-                <div class="col-6 text-start">
-                  <h2>My Coffee Shop</h2>
+                <div class="col-lg-6 col-xs-12 text-start">
+                  <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
                 <div class="col-6 text-end">
                     <p>01 1223 456</p>
@@ -58,7 +58,7 @@
                     <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
                 </div>
                 </div>
-<!-- Carousel -->
+<!-- Carousel  Code is here but modified to suit my  needs https://getbootstrap.com/docs/4.0/components/carousel/  -->
 <div id="carouselExampleSlidesOnly" class="carouselslide" data-bs-ride="carousel">
   <div class="w-75 carousel-inner" style="float:none;margin:auto;">
     <div class="carousel-item active">
@@ -89,29 +89,16 @@
 </div>
 <!-- Coffee Menu  -->
 <div class="col-xs-12 col-g-4 ">
-    <!-- <hr class="style-two"> -->
-        <h2 class="text-center">Coffee</h2>
-		
-				       <div class="col-lg-12 mx-auto col-12 text-center mb-4">
-					   <!-- <div class="col-sm-10 mx-auto col-12 text-center mb-4">Column 1</div> -->
-					   <br>
-            <!-- <h1 class="mt-0">Our Menu</h1> -->
-			 <!-- <h1 class="display-4">Our Menu</h1> -->
-			           <!-- <hr class="style-seven"> -->
-					   <!-- <hr class="style-two"> -->
-					   <!-- <hr class="style-four"> -->
-					      <!-- <h1 class="heading-1"><span>Centered Text</span></h1> -->
-
+	<h2 class="text-center">Coffee</h2>
+		<div class="col-lg-12 mx-auto col-12 text-center mb-4">
+			<br>
         </div>
-			           <!-- <hr class="style-two"> -->
-            <!-- <hr class="accent my-2"> -->
 </div>
-                <!-- Columns are always 50% wide, on mobile and desktop -->
+				<!-- Columns are always 50% wide, on mobile and desktop -->
                 <!--ROW1-->
 <div class="row">
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">CAFFÉ AMERICANO	€3</h5>
         <p class="card-text">House Roasted Espresso Beans.</p>
@@ -119,8 +106,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">CAPPUCCINO €4</h5>
         <p class="card-text">Perfect Balance of Espresso, Steamed Milk and Foam.</p>
@@ -128,8 +114,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">CAFFÉ LATTE €4</h5>
         <p class="card-text">Espresso with Steamed and Foamed Milk.</p>
@@ -137,8 +122,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">ESPRESSO €3</h5>
         <p class="card-text">Shot of Espresso Extracted the Italian Way.</p>
@@ -146,8 +130,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">ESPRESSO MACCHATO €4</h5>
         <p class="card-text">Espresso Marked with Foamed Milk.</p>
@@ -155,8 +138,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">FLAT WHITE €3</h5>
         <p class="card-text">Ristretto and Steamed Velvety Flat Milk.</p>
@@ -168,16 +150,13 @@
 <!-- <br> -->
   <hr class="style-two">
         <h2 class="text-center">Hot Drinks</h2>
-			<!--            <hr class="style-two"> -->
-            <!-- <hr class="accent my-2"> -->
  </div>
 
 </div>
 
 <div class="row">
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">EARL GREY €3</h5>
         <p class="card-text">English Earl Grey Tea.</p>
@@ -185,8 +164,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">HOT CHOCOLATE €4</h5>
         <p class="card-text">With Cream and Marshmallows.</p>
@@ -194,8 +172,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">BREAKFAST TEA €4</h5>
         <p class="card-text">Barry Gold Blend Tea.</p>
@@ -203,8 +180,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">GREEN TEA €3</h5>
         <p class="card-text">Authentic Chinese Green Tea.</p>
@@ -212,8 +188,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">HERBAL TEA €4</h5>
         <p class="card-text">Tea with a Mix of Herbs and Spices.</p>
@@ -221,8 +196,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">BERRY TEA €3</h5>
         <p class="card-text">Mixed Berry Tea.</p>
@@ -234,13 +208,10 @@
 <!-- <br> -->
   <hr class="style-two">
         <h2 class="text-center">Cold Drinks</h2>
-			<!--            <hr class="style-two"> -->
-            <!-- <hr class="accent my-2"> -->
  </div>
  <div class="row">
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">STILL WATER €3</h5>
         <p class="card-text">Irish Still Water.</p>
@@ -249,7 +220,6 @@
   </div>
   <div class="col-lg-6 col-xs-12">
     <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 class="card-title">SOFT DRINKS €3</h5>
         <p class="card-text">Coke, 7UP, Fanta, Diet Coke.</p>
@@ -257,8 +227,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">SPARKLING WATER €3</h5>
         <p class="card-text">French Sparkling water.</p>
@@ -267,7 +236,6 @@
   </div>
   <div class="col-lg-6 col-xs-12">
     <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 class="card-title">FRUIT JUICES €3</h5>
         <p class="card-text">Apple, Orange, Pinapple, Mixed Berries</p>
@@ -275,8 +243,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">ENERGY DRINKS €4</h5>
         <p class="card-text">Redbull, Monster, Rockstar.</p>
@@ -284,8 +251,7 @@
     </div>
   </div>
     <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">MILKSHAKES €5</h5>
         <p class="card-text">Strawberry, Vanilla, Chocolate, Bananna.</p>
@@ -300,13 +266,10 @@
 <!-- <br> -->
     <hr class="style-two">
         <h2 class="text-center">Sandwiches</h2>
-			           <!-- <hr class="style-two"> -->
-            <!-- <hr class="accent my-2"> -->
 </div>
  <div class="row">
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">SMOKED CHEDDAR €6</h5>
         <p class="card-text">Irish Smoked Cheddar, Tomatoes, Peppers, Spring Onion and Basil Pesto on Sourdough Loaf.</p>
@@ -314,8 +277,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">ROAST CHICKEN €6</h5>
         <p class="card-text">Roasted Chicken Strips and Homemade Garlic Aioli with Tomato and Lettuce in a Floury Seeded Bap.</p>
@@ -323,8 +285,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">CLUB SANDWICH €7</h5>
         <p class="card-text">Chicken Breast, Cheddar, Bacon, Lettuce, Red Onion, Tomatoes and Mayo on Wholemeal Bread.</p>
@@ -332,8 +293,7 @@
     </div>
   </div>
   <div class="col-lg-6 col-xs-12">
-    <div class="card border border-dark">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card  border-dark">
       <div class="card-body">
         <h5 class="card-title">TOASTED SPECIAL €5</h5>
         <p class="card-text">Irish Baked Ham, Pickled Red Onion, Fresh Vine Tomatoes, Cheddar on White Door Stop Bread.</p>
