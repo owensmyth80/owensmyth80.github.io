@@ -1,0 +1,66 @@
+body{
+	background-color: #eeee;
+	background-image:url(../images/aboutUsBackGround.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:black;
+}
+.row{
+	margin-top: 10px;
+	min-height: 100px;
+	justify-content: left;
+}
+h2{
+    padding: 50px 0;
+}
+.w-100{
+  width: 100% !important;
+  height: 60vh;
+}
+
+/* https://www.formget.com/css-hr/ */
+/* Text between <hr> tag */
+
+hr.style-four {
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+}
+hr.style-four:after {
+/* content: "www.formget.com"; */
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+padding: 0 0.25em;
+background: white;
+}
+
+h4:before, h4:after {
+     content: "";
+     flex: 1 1;
+     border-bottom: 2px solid #000;
+     margin: auto;
+}
+
+w-75 carousel-inner{
+  display: flex;
+  justify-content: center;
+}
+
+nav-link active{
+	color:yellow;
+}
+  
+/* Blur Card Body ----This makes a grey box*/
+/* .card-body { */
+    /* background-color: rgba(0,0,0,.5); */
+    /* color: #fff; */
+        /* } */
+  
+        /* .card img { */
+            /* height: 60%; */
+        /* } */

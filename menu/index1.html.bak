@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Coffee Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="..\css\stylemenu.css">
+    </head>
+
+    <body>
+        <div class="container">
+          <!-- Project Nav Bar, to be shared on all pages -->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">My Coffee Shop</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutUs/index.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contactUs/index.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="menu/index.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="catering/index.html">Catering</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="news/index.html">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="news/index.html">Location</a>
+                    </ul>
+                  </div>
+                </nav>
+
+                <!--HEADER-->
+              <div class="row">
+                <div class="col-6 text-start">
+                  <h2>My Coffee Shop</h2>
+                </div>
+                <div class="col-6 text-end">
+                    <p>01 1223 456</p>
+                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
+                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                </div>
+                </div>
+                
+                <!--ROW1-->
+                <div class="row">
+				       <div class="col-lg-10 mx-auto col-12 text-center mb-4">
+			<!-- Carousel -->
+<div id="carouselExampleSlidesOnly" class="carouselslide" data-bs-ride="carousel">
+  <div class="w-75 carousel-inner" style="float:none;margin:auto;">
+    <div class="carousel-item active">
+      <img src="..\images\chilli.jpg" class="d-block w-100" alt="Chilli">
+	  	<div class="carousel-caption d-none d-md-block">
+          <!-- <h1>Chilli</h1> -->
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..\images\scone.jpg" class="d-block w-100" alt="Fruit Scone">
+	  	<div class="carousel-caption d-none d-md-block">
+          <!-- <h1>Fruit Scone</h1> -->
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..\images\fac.jpg" class="d-block w-100" alt="Fish & Chips">
+	  	<div class="carousel-caption d-none d-md-block">
+          <!-- <h1>Fish & Chips</h1> -->
+        </div>
+    </div>
+	    <div class="carousel-item">
+      <img src="..\images\coffee.jpg" class="d-block w-100" alt="Coffee">
+	  	<div class="carousel-caption d-none d-md-block">
+          <!-- <h1>Coffee</h1> -->
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Carosel End -->
+<!-- Columns are always 50% wide, on mobile and desktop -->
+                <!--ROW1-->
+<!-- Coffee Menu  -->
+
+
+
+<!-- <div class="row"> -->
+	<!-- <h2 class="text-center">Coffee</h2> -->
+		<!-- <div class="col-lg-6 col-xs-12"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<h5 class="card-title">CAFFÉ AMERICANO	€3</h5>
+					<p class="card-text">House Roasted Espresso Beans.</p>
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+		<!-- <div class="col-lg-6 col-xs-12"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<!-- <h5 class="card-title">CAPPUCCINO €4</h5> -->
+					<!-- <p class="card-text">Espresso, Steamed Milk and Foam.</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+				<!-- <div class="col-xs-6"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<!-- <h5 class="card-title">CAFFÉ AMERICANO	€3</h5> -->
+					<!-- <p class="card-text">House Roasted Espresso Beans.</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+		<!-- <div class="col-xs-6"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<!-- <h5 class="card-title">CAPPUCCINO €4</h5> -->
+					<!-- <p class="card-text">Espresso, Steamed Milk and Foam.</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+				<!-- <div class="col-xs-6"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<!-- <h5 class="card-title">CAFFÉ AMERICANO	€3</h5> -->
+					<!-- <p class="card-text">House Roasted Espresso Beans.</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+		<!-- <div class="col-xs-6"> -->
+			<!-- <div class="card border border-dark"> -->
+				<!-- <div class="card-body"> -->
+					<!-- <h5 class="card-title">CAPPUCCINO €4</h5> -->
+					<!-- <p class="card-text">Espresso, Steamed Milk and Foam.</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+        <!-- </div> -->
+
+<!-- </div> -->
+<!-- Coffee Menu End  -->
+
+
+
+                <!-- Columns are always 50% wide on desktop, on xs 100% -->
+                <!--ROW2-->
+                <div class="row">
+                  <div class="col-lg-6 col-xs-12">
+                    more blah blah col 1
+                  </div>
+
+                  <div class="col-lg-6 col-xs-12">
+                    more blah blah col 2
+                  </div>
+
+                </div>
+                <!-- Columns are always 50% wide, on mobile and desktop -->
+                <!--ROW3-->
+                <div class="row">
+                  <div class="col-lg-6 col-xs-12">
+                    more blah blah blah col1
+                  </div>
+
+                  <div class="col-lg-6 col-xs-12">
+                    more blah blah blah col2
+                  </div>
+
+                </div>
+                <hr>
+                <!--FOOTER-->         
+          
+    
+          <div class="row">
+            <div class="col-6 text-start">
+              <h5>My Coffee Shop</h5>
+            </div>
+            <div class="col-6 text-end">
+                <p>01 1223 456</p>
+                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
+                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+            </div>
+            
+    
+          </div>
+  
+
+        </div> 
+   
+
+    </body>
+
+</html>
