@@ -28,8 +28,3 @@ h1{
 	color:black;
 	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
-
-img{
-	max-width: 100%;
-	max-height: 100%;
-}
