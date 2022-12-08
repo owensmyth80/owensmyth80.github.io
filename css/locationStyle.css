@@ -26,3 +26,9 @@ border-radius: 20px;
 .right{
 	text-align: right;
 	}
+
+	@media screen and (max-width: 600px) {
+		#imageDiv{
+			display: none;
+		}
+	}
