@@ -1,11 +1,17 @@
 body{
 	background-color: #eeee;
-	background-image:url(../images/aboutUsBackGround.png);
+	background-image:url(../images/backGround.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	text-align: center;
 	color:black;
 }
+
+#logo img { 
+    max-width: 10em;
+    height: auto;
+}
+
 .row{
 	margin-top: 10px;
 	min-height: 100px;
