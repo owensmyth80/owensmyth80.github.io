@@ -48,7 +48,7 @@
                 <hr>
                 <!--HEADER-->
               <div class="row">
-                <div class="col-6 text-end">
+                <div class="col-6 text-start">
                   <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
                 <div class="col-6 text-end">
@@ -73,6 +73,7 @@
     </div>
 
     </div>
+	<br>
 	
 	<!-- Aidan New Row  -->
 	    <div class="row">
@@ -91,6 +92,7 @@
 		</div>
 
     </div>
+	<br>
 	<!-- Another New Row -->
 
 	
@@ -138,12 +140,22 @@
 		<li>Selection of Sandwiches </li>
 		</ul>
 	</div>
+	
+
                   </div>
 
                 </div>
                 <!-- Columns are always 50% wide, on mobile and desktop -->
                 <!--ROW3-->
-                <hr>
+                <!-- <hr> -->
+				      <!-- <div class="card border border-dark"> -->
+		<!-- <h1 class="display-6">Sides</h1> -->
+	<!-- <h2>Sample Hot Dish Choices</h2> -->
+	<br>
+		<ul>
+<p class="lead">Bean-CO deliver your food straight to your door in i hot boxes that will keep your meals work for 2-3 hours. We can also supply cutlerry, dishes and serving dishes. We can also supply serving staff if needed.</p>
+		</ul>
+	<!-- </div> -->
                 <!--FOOTER-->         
           
     
