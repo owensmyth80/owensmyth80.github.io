@@ -11,21 +11,25 @@ body{
 	min-height: 100px;
 	justify-content: left;
 }
+.container-fluid{
+	font-family: sans-serif;
+}
+.navbar-brand{
+	font-size: 1.25rem;
+	font-weight: 500;
+}
 h2{
     padding: 50px 0;
 }
-
 #nameField{     
 	width: 200px;
 }
-
 #emailField{
 	width: 200px;
 }
 #message{
 	width: 200px;
 	height: 200px;
-
 }
 @media screen and (max-width: 600px) {
 	#contactUsCarousel{
@@ -38,12 +42,10 @@ h2{
 #contactUsCarousel{
 	size: auto;
 }
-
 .carousel {
 	max-width: 100%;
 	max-height: 100%;
   }
-
 .carousel-item{
 	transition-delay: 2s;
 	transition-duration: 2s;
