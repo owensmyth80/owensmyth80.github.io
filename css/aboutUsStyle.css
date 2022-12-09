@@ -6,6 +6,11 @@ body{
 	text-align: center;
 	color:black;
 }
+
+.container-fluid{
+font-family: sans-serif;
+
+}
 @media screen and (max-width: 600px) {       
 	#aboutUsPic1, #aboutUsPic2{
 		display: none;
