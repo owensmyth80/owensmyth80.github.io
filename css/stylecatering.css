@@ -21,20 +21,16 @@ h2{
 	font-size: 1.25rem;
 	font-weight: 500;
 }
-/* .w-100{      W-100 changed to w-auto */ 
-  /* width: 100% !important; */
-  /* height: 100vh; */
-/* } */
 
-/* p{ */
-	/* color:black; */
-	/* font-family: New Century Schoolbook, TeX Gyre Schola, serif; */
-/* } */
+p{
+	color:black;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
 
-/* h1{ */
-	/* color:black; */
-	/* font-family: New Century Schoolbook, TeX Gyre Schola, serif; */
-/* } */
+h1{
+	color:black;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
 
 img{
 	max-width: 100%;
