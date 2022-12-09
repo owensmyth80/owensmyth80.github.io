@@ -15,6 +15,13 @@ h2{
     padding: 50px 0;
 }
 
+#nameField{     
+	width: 200px;
+}
+
+#emailField{
+	width: 200px;
+}
 #message{
 	width: 200px;
 	height: 200px;
@@ -25,7 +32,7 @@ h2{
 		display: none;
 	}
 }
-#myForm{
+#contactUsForm{
 	text-align: left;
 }
 #contactUsCarousel{

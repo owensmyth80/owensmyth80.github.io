@@ -55,9 +55,9 @@
                 </div>
                 <div class="col-6 text-end">
                     <p>01 122 3456</p>
-                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
                 </div>
                 </div>
                  <!--ROW1-->
@@ -69,7 +69,7 @@
                 <!--ROW2-->
                 <div class="row">
                   <div class="col-xs-12 col-lg-6">
-          <!-- Carousel -->
+          <!-- Carousel, giving it an ID to hide it in CSS on smaller devices by using a media query -->
           <div id="contactUsCarousel" class="carousel slide" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
@@ -96,22 +96,23 @@
           </div>
                        
     </div>
-
+          <!--function to call the javascript -->
+          <!--12 when small, 6 when large -->
                   <div class="col-xs-12 col-lg-6">
-                    <form id="myForm" onsubmit="myJsAboutUsFuntion();return false">
+                    <form id="contactUsForm" onsubmit="myJsAboutUsFuntion();return false">
                         Name:<br/>
-                        <input type="text" placeholder="Your Name.." id="nameField" /><br/>
+                        <input type="text" placeholder="Your Name.." id="nameField" maxlength="100" /><br/>   <!--setting a limit to limit or reduce code injection risk -->
                     
                         Email:<br/>
-                        <input type="email" placeholder="Email Address.." id="emailField" /><br/>
+                        <input type="email" placeholder="Email Address.." id="emailField" maxlength="320" /><br/>               <!--320 is max total length of an email address -->
                     
                         Message:<br/>
-                        <textarea name="message" placeholder="Enter your comments here..." id="message" ></textarea> <br/>
+                        <textarea name="message" placeholder="Enter your comments here..." id="message" maxlength="400" ></textarea> <br/>   <!-- setting a limit to prevent or reduce code injection risk--> 
 
                         <input type="submit" /><br/>
             
                     </form>
-                        <h2><p id="demo"></p></h2>
+                        <h2><p id="myReturn"></p></h2>
                   </div>
 
                 </div>
@@ -125,9 +126,9 @@
             </div>
             <div class="col-6 text-end">
                 <p>01 122 3456</p>
-                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
             </div>
             
     
