@@ -31,9 +31,16 @@ img{
 	justify-content: left;
 }
 h2{
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
+#company{
+    font-size: 1.25rem;
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
 #message{
 	width: 200px;
 	height: 200px;
