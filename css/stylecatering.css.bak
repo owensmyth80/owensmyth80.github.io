@@ -21,10 +21,6 @@ h2{
 	font-size: 1.25rem;
 	font-weight: 500;
 }
-/* .w-100{      W-100 changed to w-auto */ 
-  /* width: 100% !important; */
-  /* height: 100vh; */
-/* } */
 
 p{
 	color:black;
