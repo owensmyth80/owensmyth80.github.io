@@ -49,13 +49,13 @@
                 <!--HEADER-->
               <div class="row">
                 <div class="col-6 text-start">
-                  <img src="../images/logo.png" alt="Bean-CO logo">
+                  <!-- <img src="../images/logo.png" alt="Bean-CO logo"> -->
                 </div>
                 <div class="col-6 text-end">
-                    <p>01 1223 456</p>
-                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                    <p>01 122 3456</p>
+                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
                 </div>
                 </div>
 <!-- Carousel  Code is here but modified to suit my  needs https://getbootstrap.com/docs/4.0/components/carousel/  -->
@@ -369,7 +369,7 @@
     <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">FISH & CHIPS €12</h5>
-        <p class="card-text">Beer Battered Freshly Caught Fish with Chunky Chips and Mushy Peas Puree and Tartar Saunce.</p>
+        <p class="card-text">Beer Battered Freshly Caught Fish with Chunky Chips and Mushy Peas Puree and Tartar Sauce.</p>
       </div>
     </div>
   </div>
@@ -377,7 +377,7 @@
     <div class="card border-dark">
       <div class="card-body">
         <h5 class="card-title">VEGTABLE CURRY €10</h5>
-        <p class="card-text">Potato, Chickpea and Pea Curry in a Creamy Curry Sauce with Basmati Rice and Poppadoms</p>
+        <p class="card-text">Potato, Chickpea and Pea Curry in a Creamy Curry Sauce with Basmati Rice and Poppadom's</p>
       </div>
     </div>
   </div>
@@ -389,14 +389,14 @@
           
     
           <div class="row">
-            <div class="col-lg-6 col-xs-12 text-start">
+            <div class="col-6 text-start">
               <h5>Bean-CO</h5>
             </div>
-            <div class="col-lg-6 col-xs-12 text-end">
-                <p>01 1223 456</p>
-                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+            <div class="col-6 text-end">
+                <p>01 122 3456</p>
+                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
             </div>
             
     

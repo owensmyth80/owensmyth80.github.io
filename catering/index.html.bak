@@ -52,13 +52,13 @@
                   <img src="../images/logo.png" alt="Bean-CO logo">
                 </div>
                 <div class="col-6 text-end">
-                    <p>01 1223 456</p>
-                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+                    <p>01 122 3456</p>
+                    <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                    <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                    <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
                 </div>
                 </div>
-                <!-- Columns are always 50% wide, on mobile and desktop -->
+                <!-- Columns are always 50% wide on desktop and 100% on mobile -->
                 <!--ROW1-->
     <div class="row" >
                   <div class="col-lg-6 col-xs-12"  style="float:none;margin:auto;">
@@ -153,21 +153,21 @@
 	<!-- <h2>Sample Hot Dish Choices</h2> -->
 	<br>
 		<ul>
-<p class="lead">Bean-CO deliver your food straight to your door in i hot boxes that will keep your meals work for 2-3 hours. We can also supply cutlerry, dishes and serving dishes. We can also supply serving staff if needed.</p>
+<p class="lead">Bean-CO deliver your food straight to your door in hot boxes that will keep your meals work for 2-3 hours. We can also supply cutlery, dishes and serving dishes. We can also supply serving staff if needed.</p>
 		</ul>
 	<!-- </div> -->
                 <!--FOOTER-->         
           
     
           <div class="row">
-            <div class="col-lg-6 col-xs-12 text-start">
+            <div class="col-6 text-start">
               <h5>Bean-CO</h5>
             </div>
-            <div class="col-lg-6 col-xs-12 text-end">
-                <p>01 1223 456</p>
-                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red"></i></a>   
-                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
+            <div class="col-6 text-end">
+                <p>01 122 3456</p>
+                <a href="mailto:nosuchmail@gmail.com"><i class="fa fa-envelope-o" style="font-size:24px; color: red" title="Email Us" alt="Email Link"></i></a>   
+                <a href="https://twitter.com/nosuchtwitter" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px" title="Twitter" alt="Twitter Link"></i></a>
+                <a href="https://www.linkedin.com/in/nosuchlinkedin/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px" title="Linkedin" alt="Linkedin Link"></i></a>
             </div>
             
     
