@@ -3,7 +3,7 @@ function myJsAboutUsFuntion(){
     let textBox = document.getElementById("message").value;
     var email = document.getElementById("emailField").value;
     let x = name + " thank you for your details. We will be in touch via "+email + " shortly.";
-    var nameArray = [document.getElementById("nameField")];
+//    var nameArray = [document.getElementById("nameField")];    this isn't needed as i can loop already to check for the illegal characters
     let count = 0;
     //    nameArray = name;
 
@@ -20,7 +20,7 @@ function myJsAboutUsFuntion(){
 
     } 
 
-    alert(count);   //  checking that count keeps the cout out of the loop 
+//    alert(count);   //  checking that count keeps the cout out of the loop 
 
 
     if(count == 0){
@@ -30,7 +30,7 @@ function myJsAboutUsFuntion(){
         return;
     }
     else{
-        alert("Form entry blocked, due to illegal character entries \n *()[]{}= are not permitted!! \n we found " +count + " of these \n try again without any of these characters");
+        alert("Form entry blocked, due to illegal character entries. \n *()[]{}= are not permitted!! \n We found " +count + " of these. \n Try again without any of these characters");
         return;
     }
 } 
