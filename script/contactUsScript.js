@@ -1,8 +1,8 @@
-function myJsAboutUsFuntion(){
+function myJsContactUsFuntion(){
     let name = document.getElementById("nameField").value;
     let textBox = document.getElementById("message").value;
     var email = document.getElementById("emailField").value;
-    let x = name + " thank you for your details. We will be in touch via "+email + " shortly.";
+    let x = name + " Thank you for your details. We will be in touch via "+email + " shortly.";
 //    var nameArray = [document.getElementById("nameField")];    this isn't needed as i can loop already to check for the illegal characters
     let count = 0;
     //    nameArray = name;
