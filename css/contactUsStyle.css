@@ -7,14 +7,17 @@ body{
 	text-align: center;
 	color:black;
 }
+/*<!--default row settings for all pages-->*/
 .row{
 	margin-top: 10px;
 	min-height: 100px;
 	justify-content: left;
 }
+/*<!--Nav Bar font-->*/
 .container-fluid{
 	font-family: sans-serif;
 }
+/*<!--font brand size and weight-->*/
 .navbar-brand{
 	font-size: 1.25rem;
 	font-weight: 500;
@@ -22,31 +25,39 @@ body{
 h2{
     padding: 50px 0;
 }
+/*<!--name field length-->*/
 #nameField{     
 	width: 200px;
 }
+/*<!--email field length-->*/
 #emailField{
 	width: 200px;
 }
+/*<!--message field, the textbox-->*/
 #message{
 	width: 200px;
 	height: 200px;
 }
+/*<!--hidding the carousel on smaller screens-->*/
 @media screen and (max-width: 600px) {
 	#contactUsCarousel{
 		display: none;
 	}
 }
+/*<!--form alignment to left-->*/
 #contactUsForm{
 	text-align: left;
 }
+/*<!--carosel sizing-->*/
 #contactUsCarousel{
 	size: auto;
 }
+/*<!-width and height-->*/
 .carousel {
 	max-width: 100%;
 	max-height: 100%;
   }
+  /*<!--setting for carosel, speed etc-->*/
 .carousel-item{
 	transition-delay: 2s;
 	transition-duration: 2s;
